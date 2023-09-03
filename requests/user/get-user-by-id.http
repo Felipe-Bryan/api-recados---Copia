@@ -1,0 +1,6 @@
+@HOST = http://localhost:3333
+
+@USERID = 2f73a9f1-ec53-4866-a938-14744ff0347
+
+GET {{HOST}}/user/{{USERID}} HTTP/1.1
+Content-Type: application/json

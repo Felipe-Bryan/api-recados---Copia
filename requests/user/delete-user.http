@@ -1,0 +1,6 @@
+@HOST = https://api-taskvault.onrender.com
+
+@USERID = 5931314e-ab68-466c-b8ba-377ae75619b3
+
+DELETE {{HOST}}/user/{{USERID}} HTTP/1.1
+Content-Type: application/json

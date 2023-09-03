@@ -1,0 +1,11 @@
+@HOST = https://api-taskvault.onrender.com
+
+@USERID = e243dfbb-4106-4a8a-9d7d-d46c2f246a77
+
+POST {{HOST}}/user/{{USERID}}/tasks HTTP/1.1
+Content-Type: application/json
+
+{
+    "description": "Descrição 1",
+    "detail": "Detalhe 1"
+}
